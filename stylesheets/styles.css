@@ -710,12 +710,12 @@ header p {
 }
 #banner .button {
   border: 1px solid  #F3E5F5;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffe788), color-stop(100%, #ffce38));
-  background: -webkit-linear-gradient(#ffe788, #ffce38);
-  background: -moz-linear-gradient(#ffe788, #ffce38);
-  background: -o-linear-gradient(#ffe788, #ffce38);
-  background: -ms-linear-gradient(#ffe788, #ffce38);
-  background: linear-gradient(#ffe788, #ffce38);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #E1BEE7), color-stop(100%, #CE93D8));
+  background: -webkit-linear-gradient(#E1BEE7, #CE93D8);
+  background: -moz-linear-gradient(#E1BEE7, #CE93D8);
+  background: -o-linear-gradient(#E1BEE7, #CE93D8);
+  background: -ms-linear-gradient(#E1BEE7, #CE93D8);
+  background: linear-gradient(#E1BEE7, #CE93D8);
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   -o-border-radius: 2px;
