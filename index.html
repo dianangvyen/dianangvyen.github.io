@@ -4,17 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Dianangvyen.GitHub.io by dianangvyen</title>
+	<!-- Stylesheets -->
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<!--js stuff -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>-->
     <script src="javascripts/main.js"></script>
-	 <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
-	  <script>
-	  <ul class="nav nav-tabs">
-    <li class="active"><a href="#">Home</a></li>
-    <li><a href="#">Profile</a></li>
-    <li><a href="#">Messages</a></li>
-</ul>
+	 <!--<script type="text/javascript" src="js/jssor.slider.mini.js"></script>-->
+	  
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script>
         jQuery(document).ready(function ($) {
             
             var jssor_1_SlideshowTransitions = [
@@ -119,13 +122,31 @@
 
         <a target="_blank" href="https://github.com/dianangvyen" class="button fork"><strong>View On GitHub</strong></a>
       </div><!-- end banner -->
-
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        <h3>
+	  <div>
+ 
+   <!-- Nav tabs -->
+  
+   <ul class="nav nav-tabs" role="tablist" style="margin-top: 200px;margin-bottom:0;">
+     <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+     <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+     <li role="presentation"><a href="#contributors" aria-controls="contributors" role="tab" data-toggle="tab">Contributors</a></li>
+     <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+   </ul>
+   <!-- Tab panes -->
+  
+  
+  
+   
+     
+	  <div class="tab-content">
+    <!--
+   
+     <div role="tabpanel" class="tab-pane" id="settings">...</div>-->
+      
+        
+		 <div role="tabpanel" class="tab-pane active" id="home">
+		  <div class="wrapper"><section>
+		 <h3>
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a> New User</h3>
 
 <p>I am new to open source and I am very eager to learn how to contribute.</p>
@@ -133,6 +154,9 @@
 <a id="Desinger Templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>About Me</h3>
 
  <p> My name is Diana Nguyen. I am a high school student who has a great desire to learn and explore the science and technology world. My favorite subjects are Math and Science. I am very determined to pursue my career based off math and science. Technology is extraordinary and there is no end to learning which is one of the very reasons I love about it. There is so much you can do because it's all about building and improving. </p>
+ </section></div></div>
+ <div role="tabpanel" class="tab-pane" id="profile">
+ <div class="wrapper"><section>
 <h3>
 <a id="Designer Templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>My Coding Journey</h3>
 
@@ -142,7 +166,9 @@
 <a id="Designer Templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repositiories</h3>
 
 <p>I have participated in Google Code-In 2015 and I have contributed to Sugar Labs and FOSSASIA. In the tasks I have done included learning how Git works and being able to operate it. I must say it was a fun learning experience because I came across tasks I didn't have knowledge for, but afterwards, going through the process and picking up bits of knowlegde, I knew what I was doing. I am now more confident and capable of doing tasks. </p>
-
+ </section></div></div>  
+ <div role="tabpanel" class="tab-pane" id="contributors">
+ <div class="wrapper"><section>
 <h3>
 <a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a></h3>
 
@@ -157,7 +183,7 @@
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
 <p>You can find me @dianangvyen on GitHub.com</p>
-      </section>
+</section></div></div>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
       </footer>
@@ -237,5 +263,6 @@
         <span data-u="arrowright" class="jssora05r" style="top:158px;right:8px;width:40px;height:40px;"></span>
         <a href="http://www.jssor.com" style="display:none">Slideshow Maker</a>
     </div>
+</div>	
   </body>
 </html>
