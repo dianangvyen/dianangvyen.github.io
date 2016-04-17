@@ -848,7 +848,7 @@ nav ul a {
   color: #666;
 }
 nav ul a:hover {
-  color: #F3E5F5;
+  color: #E1BEE7;
 }
 
 footer {
@@ -905,7 +905,7 @@ footer {
   footer {
     text-align: center;
     margin: 20px auto;
-    position: relative;
+    position: absolute;
     left: auto;
     bottom: auto;
     width: auto;
