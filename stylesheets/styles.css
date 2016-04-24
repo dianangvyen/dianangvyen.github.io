@@ -795,7 +795,7 @@ section {
   width: 590px;
   padding: 30px 30px 50px 30px;
   margin: 20px 0;
-  margin-top: 190px;
+  margin-top: 10px;
   position: relative;
   background: #fbfbfb;
   -moz-border-radius: 3px;
@@ -861,12 +861,19 @@ footer {
   line-height: 16px;
 }
 
+div.title {
+	text-align: center;
+	margin: auto;
+}
+  #myCarousel {
+	width: 50%;
+	max-width: 50%;
+  }
 @media print, screen and (max-width: 1060px) {
   div.wrapper {
     width: auto;
     margin: 0;
   }
-
   nav {
     display: none;
   }
@@ -905,7 +912,7 @@ footer {
   footer {
     text-align: center;
     margin: 20px auto;
-    position: absolute;
+    position: relative;
     left: auto;
     bottom: auto;
     width: auto;
