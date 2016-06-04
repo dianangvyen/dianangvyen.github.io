@@ -218,7 +218,9 @@ mark {
 /*
  * Addresses margins set differently in IE6/7
  */
-p,
+p {
+    text-indent: 50px;
+}
 pre {
   margin: 1em 0;
 }
