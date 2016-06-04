@@ -866,8 +866,8 @@ div.title {
 	margin: auto;
 }
   #myCarousel {
-	width: 50%;
-	max-width: 50%;
+	width: 85%;
+	max-width: 85%;
   }
 @media print, screen and (max-width: 1060px) {
   div.wrapper {
