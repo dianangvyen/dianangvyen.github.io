@@ -570,7 +570,12 @@ strong {
   width: 100%;
 }
 .wrapper {
-  width: 90%;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+.wrapper-main {
+  width: 70%;
   margin: 0 auto;
   position: relative;
 }
